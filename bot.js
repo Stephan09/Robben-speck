@@ -68,18 +68,7 @@ client.on('message', message => {
 client.on('guildMemberAdd', member => {
 		const channel = member.guild.channels.find(ch => ch.name === 'willkommen');
         if (!channel) return;
-		channel.send(`Herzlich Willkommen beim Server Deutschsprachige Baumaschinen, ${member}
-Discord Server Regeln:
-
-- Nicht beleidigen
-- Nicht mobben
-- kein Rassismus
-- Freundlicher Umgang im Chat
-- Wenn ein Admin gebraucht wird bitte in den #👀admin-gesucht channel schreiben, @Admin  eintippen wenn es dringend ist.
-- Server Kommandos: !hilfe, dann erscheint eine Liste mit Kommandos.
-
-
-Wir wünschen viel Spaß beim bauen euer Server Team von den Deutschsprachigen Baumaschinen Server aus Creativerse !`);
+		channel.send(`Herzlich Willkommen beim Server Deutschsprachige Baumaschinen, ${member}Discord Server Regeln:- Nicht beleidigen- Nicht mobben- kein Rassismus- Freundlicher Umgang im Chat- Wenn ein Admin gebraucht wird bitte in den #👀admin-gesucht channel schreiben, @Admin  eintippen wenn es dringend ist.- Server Kommandos: !hilfe, dann erscheint eine Liste mit Kommandos.Wir wünschen viel Spaß beim bauen euer Server Team von den Deutschsprachigen Baumaschinen Server aus Creativerse !`);
 });
 
 
