@@ -63,7 +63,9 @@ client.on('message', message => {
 
 
 
+	
 
+});
 
 client.on('guildMemberAdd', member => {
 		const channel = member.guild.channels.find(ch => ch.name === 'willkommen');
