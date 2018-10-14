@@ -53,7 +53,7 @@ client.on('ready', () => {
 
 
 client.on('message', message => {
-	if(message.content.toLowerCase() === '<@497685236763590656>') { if(message.author.bot) { return; }
+	if(message.content.toLowerCase() === '<@464364602965360660>') { if(message.author.bot) { return; }
 	         var embed = new Discord.RichEmbed()
 			 .addField('test:smile:  ', '?hilfe')
 			 .setColor('GREEN')
